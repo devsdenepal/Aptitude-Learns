@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+ErrorDocument 404 "<body><H1 style='color:aqua;text-align:center;font-family:monospace;'>Page not found</H1><hr/><h2>Redirecting in 2s...</h2><script>setTimeout(redirection,2000);function redirection(){window.history.go(-1)}</script>"
