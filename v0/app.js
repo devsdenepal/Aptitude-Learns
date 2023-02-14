@@ -30,7 +30,7 @@ function choose_word(){
 }
 function play(){
     // greet user
-speak("welcome dear learner, be ready for the dictation. Here is your 10 seconds for preparing your copy and pen.")
+speak("Hi ! I am here to guide you  dear learner, this platform is being developed by Developer Gautam Kumar and will be develped soon. Now be ready for the dictation. Here is your 10 seconds for preparing your copy and pen.")
 speak_n_count(10)
     for(x=0;x<10;x++){
         if(x==0){
