@@ -52,11 +52,3 @@ font-weight:800;
     color: #fff;
     background-color: rgb(34, 34, 189);
 }
-.animated-card{
-    padding: 15px;
-    width: 440px;
-    height: 220px;
-    box-shadow: 2px 0px 1px 2px aqua;
-    text-align: center;
-    font-size: 155px;
-}
